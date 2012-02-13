@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ember-data-indexeddb Tests</title>
+    <script type="text/javascript" src="jasmine.js"></script>
+    <script type="text/javascript" src="jasmine-html.js"></script>
+    <script type="text/javascript" src="../js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/libs/ember.js"></script>
+    <script type="text/javascript" src="../js/libs/ember-data.js"></script>
+    <script type="text/javascript" src="../js/ember-data-indexeddb/indexeddb_adapter.js"></script>
+    <script type="text/javascript" src="spec_helper.js"></script>
+    <script type="text/javascript" src="ember-data-indexeddb/indexeddb_adapter_tests.js"></script>
+    <link rel="stylesheet" type="text/css" href="jasmine.css" />
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      $(function() {
+        jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+        jasmine.getEnv().execute();
+      });
+    </script>
+  </body>
+</html>
